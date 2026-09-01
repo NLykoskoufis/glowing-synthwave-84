@@ -2,7 +2,7 @@
   "name": "glowing-synthwave-84",
   "displayName": "Glowing SynthWave '84",
   "description": "A darker SynthWave '84 with italic functions and a neon glow on control-flow keywords. Fork of Robb Owen's SynthWave '84.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "local",
   "engines": {
     "vscode": "^1.33.0"
@@ -16,6 +16,11 @@
         "label": "Glowing SynthWave '84",
         "uiTheme": "vs-dark",
         "path": "./themes/glowing-synthwave-84-color-theme.json"
+      },
+      {
+        "label": "SynthWave Sunrise",
+        "uiTheme": "vs",
+        "path": "./themes/synthwave-sunrise-color-theme.json"
       }
     ]
   },

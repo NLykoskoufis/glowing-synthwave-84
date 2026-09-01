@@ -1,4 +1,4 @@
-# SynthWave '84 (Custom)
+# Glowing SynthWave '84
 
 A personal fork of [SynthWave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
 by Robb Owen: darker background, italic function names, and a glow limited to
@@ -48,6 +48,12 @@ the extra glyphs for file icons and terminal prompts.
 "editor.fontLigatures": true
 ```
 
+## Light variant
+
+The extension also ships **SynthWave Sunrise** — a pastel sibling, not
+"SynthWave in light mode": no neon survives a light ground, so the hues are
+darkened until they read on pale pink-lavender. The glow is dark-only.
+
 ## Install
 
 Download the prebuilt `.vsix` from the [latest release](https://github.com/NLykoskoufis/glowing-synthwave-84/releases/latest), then either:
@@ -86,7 +92,7 @@ another group, give it a unique hex and add it to
 
    ```json
    "vscode_custom_css.imports": [
-     "file:///absolute/path/to/synthwave-84-custom/glow/synthwave-custom-glow.js"
+     "file:///absolute/path/to/glowing-synthwave-84/glow/synthwave-custom-glow.js"
    ]
    ```
 
